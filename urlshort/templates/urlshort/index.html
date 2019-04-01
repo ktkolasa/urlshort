@@ -1,0 +1,21 @@
+{% load static %}
+
+<link rel="stylesheet" type="text/css" href="{% static 'urlshort/style.css' %}">
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+   	<meta charset="utf-8" />
+
+   	<title> URL shortener </title>
+  </head>
+<body>
+	<h1> Welcome to URL shortener </h1>
+
+  <form method="post" action="results" >
+  {% csrf_token %}
+      Full URL: <input type="text" name="full_url">
+    <p><input type=submit value="Generate short URL">
+  </form>
+
+</body>
+</html>
