@@ -28,7 +28,6 @@ def results(request):
             'full_url': full_url,
             'short_url': short_url,
             'short_url_text': short_url_text
-
         }
 
     return render(request, 'urlshort/result.html', context)
