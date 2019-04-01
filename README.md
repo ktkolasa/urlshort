@@ -1,2 +1,2 @@
-## URL shortener Djadgo app
- Written as a recruitment task
+## URL shortener Django app
+Written as a recruitment task
