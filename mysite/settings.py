@@ -6,7 +6,7 @@ SECRET_KEY = '&!_wl-^dakqkz7ld(j&asmzaq^sk_@i&hc(w$i!dd6-xatzqaz'
 
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['ktk-urlshort.herokuapp.com']
 
 INSTALLED_APPS = [
     'urlshort.apps.UrlshortConfig',
